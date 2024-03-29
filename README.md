@@ -24,3 +24,10 @@ Wich would look like this for example:
 
 And open it with your browser.
 
+# Usage
+
+Open the program, copy the video id in the text entry, and click on the open
+button.
+
+This depends on Tcl/Tk, will only work on linux, and uses firefox the html
+file.

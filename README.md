@@ -6,9 +6,14 @@ Tcl/Tk installed on your system.
 
 # Usage
 
-Open the script bypass_yt.tcl using the tcl "wish" command. Enter the video
-ID in the text entry, choose your resolution. Pressing the "Open" button will
-open a new tab with the video shown in "embeded" mode (see limitation).
+Open the script bypass_yt.tcl using the tcl "wish" command. 
+
+Enter the video ID (bold part shown bellow) in the text entry:
+
+> https://<span></span>www<span>.youtube.com/watch?v=***-5R-aLmZ9Ps***
+
+Choose your resolution. Pressing the "Open" button will open a 
+new tab with the video shown in "embeded" mode (see limitation).
 
 Edit the script to match your screen resolution if needed.
 
@@ -23,10 +28,11 @@ saying "watch this video on youtube").
 It opens the video in  "embed" mode.
 
 Example to unlock and see the video:
-https://www.youtube.com/watch?v=SomeRandomVideo-Id
+
+> https://<span>www</span>.youtube.com/***watch***?v=*SomeRandomVideo-Id*
 
 We simply need a html file with an iframe pointing to:
-https://www.youtube.com/embed/SomeRandomVideo-Id
+> https://<span>www</span>.youtube.com/***embed***/*SomeRandomVideo-Id*
 
 Wich would look like this for example:
 ```html
